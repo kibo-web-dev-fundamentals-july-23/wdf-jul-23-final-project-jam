@@ -2,7 +2,6 @@ body{
     width: 75%;
     margin: 0 auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 1px solid blue;
 }
 /* Style for the links */
 a:link{
@@ -27,13 +26,23 @@ a:visited{
     gap: 17px;
 }
 /* Style for main */
-/* Style for main Header */
 .Header_bg{
-    background: url(Asset/Laptop.jpg);
+    background: url(/Asset/Laptop.jpg);
     height: 500px;
-    text-align: center;
-    position: relative;
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.Header_link{
+    color: aliceblue;
+}
+.Header_link_1st{
+    color: aliceblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 15px;
 }
 img{
     max-width: 100%;
@@ -97,6 +106,20 @@ h1{
     height: 150px;
     border: 1px solid white;
 }
+.Glass{
+    background: url(/Asset/Glass\ building.jpg);
+    height: 400px;
+    color: aliceblue;
+}
+.Glass_building{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    color: aliceblue;
+
+}
 .contact{
     display: inline;
     border-radius: 25%;
@@ -115,18 +138,20 @@ h1{
     flex-direction: column;
     align-content: center;
 }
+
 li{
     list-style: none;
+}
+.footer_links{
+    display: flex;
+    flex-direction: row;
+    padding: 0 50px;
 }
 .footer_copyright{
     display: flex;
     justify-content: flex-end;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     gap: 30px;
-}
-.footer_links{
-    display: flex;
-    justify-content: space-around;
 }
 footer{
     border:1px solid black;
