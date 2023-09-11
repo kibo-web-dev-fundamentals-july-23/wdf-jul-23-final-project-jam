@@ -17,14 +17,18 @@ a:visited{
     color: aqua;
 }
 /* Style for header */
-nav a:link{
-    margin: 20px;
-    float: right;
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+    gap: 17px;
 }
 /* Style for main */
-.image{
-    width: 
-    ;
+img{
+    max-width: 100%;
 }
 .words{
     display: inline-table;
