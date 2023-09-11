@@ -27,6 +27,14 @@ a:visited{
     gap: 17px;
 }
 /* Style for main */
+/* Style for main Header */
+.Header_bg{
+    background: url(Asset/Laptop.jpg);
+    height: 500px;
+    text-align: center;
+    position: relative;
+
+}
 img{
     max-width: 100%;
 }
