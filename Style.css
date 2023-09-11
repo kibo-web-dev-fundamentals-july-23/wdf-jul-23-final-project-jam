@@ -1,0 +1,121 @@
+body{
+    width: 75%;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid blue;
+}
+/* Style for the links */
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a:visited{
+    color: aqua;
+}
+/* Style for header */
+nav a:link{
+    margin: 20px;
+    float: right;
+}
+/* Style for main */
+.image{
+    width: 
+    ;
+}
+.words{
+    display: inline-table;
+    justify-content: space-evenly;
+    border-spacing: 20px;
+    margin-right:20x;
+    border: 1px solid black;
+}
+.words .word{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+.solution{
+
+}
+.container{
+    display: inline-table;
+    border: 1px solid blue;
+    padding: 20px;
+}
+.container img{
+    width: 200px;
+}
+.service{
+    display: flexbox;
+}
+.products{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+.product{
+    display: inline-table;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 25px;
+}
+.product p{
+    font-weight: bolder;
+    font-size: 17px;
+}
+h1{
+    font-size: 35px;
+}
+.new{
+    display: flex;
+    justify-content: center;
+}
+.last_article {
+    display: inline-table;
+    border-spacing: 10px;
+    border: 1px solid rgb(128, 128, 223);
+    border-radius: 5px;
+    margin: 20px;
+}
+.last_article img{
+    height: 150px;
+    border: 1px solid white;
+}
+.contact{
+    display: inline;
+    border-radius: 25%;
+    background-color: #1E47ff;
+    padding: 15px;
+}
+.contact:link{
+    color: white;
+}
+/* Style for the footer */
+.footer_heading{
+    font-weight: bold;
+}
+.footer_margin{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+li{
+    list-style: none;
+}
+.footer_copyright{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+    gap: 30px;
+}
+.footer_links{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    border:1px solid black;
+}
