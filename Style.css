@@ -19,21 +19,26 @@ a:hover{
 a:visited{
     color: black;
 }
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
 .menus{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     gap: 40px;
 }
-.header_logo{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.ham-burger{
+    padding:8px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
 }
-.layer{
-    display: flex;
-    gap: 50px;
-    padding-left: 20px;
+.ham-burger svg{
+    color: black;
+    width:24px;
+    height: 24px;
 }
 .frame{
     background: url(/Asset/Laptop.jpg);
@@ -362,3 +367,9 @@ a:visited{
     justify-content: flex-end;
     font-weight: 100;
 }
+
+/* Media Queries */
+
+@media (min-width: 768px) { 
+
+ }
