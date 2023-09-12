@@ -1,5 +1,6 @@
 body{
-    width: 75%;
+    
+    max-width: 1200px;
     margin: 0 auto;
     /* border: 1px solid black; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -42,6 +43,7 @@ a:visited{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
 }
 .best{
     display: flex;
@@ -82,7 +84,10 @@ a:visited{
 .core{
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 30px;
+    justify-content: center;
+    width: f;
+    
 }
 .words{
     flex-direction: row;
@@ -106,10 +111,14 @@ a:visited{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    padding-top:  10px;
+    padding-bottom: 30px;
 }
 .vision{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .about{
     font-family: "Poppins-Regular", Helvetica;
@@ -119,6 +128,7 @@ a:visited{
 .solution{
     font-family: "Poppins-SemiBold", Helvetica;
     font-size: 35px;
+    justify-content: center;
 }
 .it_hub{
     font-family: "Inter-Regular", Helvetica;
@@ -150,6 +160,7 @@ a:visited{
 .contain{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .container{
     display: flex;
@@ -157,6 +168,7 @@ a:visited{
     border: 1px solid blue;
     margin: 20px;
     align-items: center;
+  
 }
 .image_container_2 img{
     height: 150px;
@@ -184,10 +196,16 @@ a:visited{
     display: flex;
     flex-direction: column;
     font-family: "DM Sans-Medium", Helvetica;
+    justify-content: center;
 }
 .service{
     display: inline;
     text-align: center;
+    justify-content: center;
+}
+.cont{
+    justify-content: center;
+    background: rgba(black, 0.5);
 }
 .line{
     display: flex;
