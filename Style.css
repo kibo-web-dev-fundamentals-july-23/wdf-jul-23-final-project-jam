@@ -37,7 +37,7 @@ a:visited{
 }
 .frame{
     margin-top: 20px;
-    background: url(/Asset/Laptop.jpg);
+    background: url(./Asset/Laptop.jpg);
     height: 300px;
     opacity: 0.9;
     border-radius: 5px;
@@ -300,7 +300,7 @@ a:visited{
     font-weight: 500;
 }
 .Glass{
-    background: url(/Asset/Glass\ building.jpg);
+    background: url(./Asset/Glass\ building.jpg);
     height: 400px;
     display: flex;
     flex-direction: column;
